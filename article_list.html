@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<header>
+
+</header>
+<body>
+    <div class="base">
+        <div class="new_article">
+            <button><a href="">NEW</a></button>
+        </div>
+        <div class="contents">
+            <div class="item">
+                <img src="./scott.png" width="50%" length="50%" />
+                <nav>
+                    <ul class="menu">
+                        <li class="menu-detail"><a class="purpledeco" href="/home"><img src="./home.png" />Home</a></li>
+                        <li class="menu-detail"><a class="adeco" href="./article_list.html"><img src="./article_list.png" />Article List</a></li>
+                        <li class="menu-detail"><a class="adeco" href="/terminology"><img src="./terminology.png" />Terminology</a></li>
+                        <li class="menu-detail"><a class="adeco" href="/sticky_notes"><img src="./sticky_notes.png" />Sticke Notes</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="article_list">
+                <div class="search_window">
+                    <div>
+                        <div class="opt">
+                            <label>Title</label>
+                            <input type="text">
+                        </div>
+                        <div class="opt">
+                            <label>Date</label>
+                            <input type="date">
+                        </div>
+                    </div>
+                </div>
+                <div class="go">
+                    <button>Go</button>
+                </div>
+                <div class="search_result opt">
+                    <ul>
+                        <li class="result_element">
+                            <div class="rem">Title</div>
+                            <div class="rem">Date</div>
+                        </li>
+                        <li class="result_element">
+                            <div class="rem">Title</div>
+                            <div class="rem">Date</div>
+                        </li>
+                        <li class="result_element">
+                            <div class="rem">Title</div>
+                            <div class="rem">Date</div>
+                        </li>
+                        <li class="result_element">
+                            <div class="rem">Title</div>
+                            <div class="rem">Date</div>
+                        </li>
+                        <li class="result_element">
+                            <div class="rem">Title</div>
+                            <div class="rem">Date</div>
+                        </li>
+                        <li class="result_element">
+                            <div class="rem">Title</div>
+                            <div class="rem">Date</div>
+                        </li>
+                        <li class="result_element">
+                            <div class="rem">Title</div>
+                            <div class="rem">Date</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+</footer>
+<style>
+    .base {
+        min-height: 100vh;
+        background-color: #E8E6E6;
+    }
+    .contents {
+        display: flex;
+    }
+    .flex {
+        float: left;
+    }
+    .menu {
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        list-style: none;
+    }
+    .new_article {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .item {
+        background-color: #FFFFFF;
+        min-height: 100vh;
+        min-width: 20vw;
+        margin-left: 10px
+    }
+    .menu-detail {
+        vertical-align: top;
+        display: flex;
+        align-items: center;
+        font-size: large;
+        margin-bottom: 8px;
+    }
+    .adeco {
+        text-decoration: none;
+        color: #000;
+    }
+    .purpledeco {
+        text-decoration: none;
+        color: #4D0CD7;
+    }
+    .article_list {
+
+    }
+    .search_window {
+        display: flex;
+        justify-content: center;
+    }
+    .go {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .opt {
+        margin-top: 10px;
+    }
+    .search_result {
+        align-items: center;
+        padding-left: 12px;
+    }
+    .result_element {
+        display: flex;
+        justify-content: center;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        vertical-align: top;
+        
+    }
+    .rem {
+        padding-left: 15rem;
+    }
+</style>
